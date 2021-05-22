@@ -13,7 +13,7 @@ from playsound import playsound
 from fake_useragent import UserAgent
   
 root=tk.Tk()
-root.title("Vaccine Slot Notifier (India)")
+root.title("Vaccine Slot Notifier (with voice alerts)")
 
 # Setting icon of master window
 icon = tk.PhotoImage(file=r"D:\PersonalProjects_andFiles\python_projects\slot_checker_v2\app_icon.png") 
@@ -156,7 +156,7 @@ def callback(url):
      
 
 def cb():
-        messagebox.showinfo("How To Use", "Type a valid pincode and select the desired dose number and the age range from the two drop down menu and click start checking button .\n\nPLEASE"
+        messagebox.showinfo("How To Use", "Type a valid pincode and select the desired dose number and the age range from the two drop down menu and click start checking button. Turn the volume of the speakers up in order to hear the voice alerts. .\n\nPLEASE"
                             "CHANGE THE SLEEP SETTINGS OF YOUR PC TO AVOID THE PC GOING INTO SLEEP MODE IN ORDER TO KEEP THE SOFTWARE RUNNING IN THE BACKGROUND.")
 
   
